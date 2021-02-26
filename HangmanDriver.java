@@ -8,7 +8,24 @@ class HangmanDriver{
 		Hangman hm = new Hangman(inputIn);
 		hm.setWord(hmd.getWord());
 		System.out.println(hm.getPlayerName());
-		System.out.println(hm.getWord());
+		hm.tryChar('e');
+		hm.tryChar('1');
+		hm.tryChar('s');
+		hm.tryChar('a');
+		hm.tryChar('a');
+		hm.tryChar('b');
+		hm.tryChar('c');
+		hm.tryChar('d');
+		hm.tryChar('f');
+		hm.tryChar('s');
+		hm.tryChar('h');
+		hm.tryChar('i');
+		hm.tryChar('j');
+		hm.tryChar('k');
+		hm.tryChar('l');
+		hm.tryChar('m');
+
+		System.out.println(hm.getCurrentState());
 	}
 
 }
