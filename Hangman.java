@@ -44,7 +44,7 @@ class Hangman{
 
 
 	public int getRemainingGuesses(){
-		return MAX_GUESSES - this.guesses.length;
+		return MAX_GUESSES - this.x;
 	}
 
 	public boolean tryChar(char a){
